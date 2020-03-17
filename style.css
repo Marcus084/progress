@@ -1,0 +1,66 @@
+body {
+  background-color: white;
+}
+
+  .hero-image{
+   background-image:  url("images/jacks.jpg");
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  }
+
+  nav {
+    font-size: 3rem;
+    background-color: green;
+  }
+
+    nav ul {
+      text-decoration:none;
+      list-style-type: none;
+      margin:0;
+      padding:0;
+      display:flex;
+      justify-content: space-around;
+    }
+
+    nav ul li:hover {
+      background-color: black;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-family: sans-serif;
+      padding-bottom: 40px;
+      flex:auto;
+      text-align: center;
+
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  font-size: 24px;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.button {
+    background-color:green;
+    margin:0 auto;
+    border:20px
+    padding:8px 40px;
+    background-size: 200px;
+    color: white;
+    font-family: "sans-serif";
+    text-decoration: none;
+    font-size:30px
+    color: white;
+}
+
+.text {
+  border: 20px;
+  font-size: 20px;
+}
